@@ -1,0 +1,9 @@
+import math
+
+numTiles = int(input("Input the number of tiles: "))
+
+y = math.sqrt(numTiles)
+
+z = int(y)
+
+print(f"The largest square length has side length {z}.")
