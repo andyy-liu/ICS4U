@@ -1,11 +1,12 @@
-invalid = True
-number = ''
+number = input("Enter the last four digits of the number: ")
 
-while invalid:
-   number = int(input("Enter the seven digit number: "))
-if len(number) == 7:
-        invalid = False
-
-lastDigits = number / 10000
-
-if 
+if number[0] == 8 or 9:
+        if number[3] == 8 or 9:
+                if number[2] == number[1]:
+                        print('Telemarketer! Ignore.')
+                else: 
+                        print('Not a telemarketer.')
+        else:
+                print('Not a telemarketer.')
+else:
+        print('Not a telemarketer.')
