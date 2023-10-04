@@ -4,5 +4,3 @@ factor = 1
 for factor in range(1, num + 1):
     if num % factor == 0:
         print(factor)
-
-        
