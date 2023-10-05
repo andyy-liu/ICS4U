@@ -1,3 +1,4 @@
+# finding a prime number knowing that prime numbers only have 2 factors (itself and 1)
 '''
 prime = int(input("Enter a number greater than 1: "))
 factor = 1
@@ -12,7 +13,7 @@ if counter == 2
 else:
     print(f"{prime} is not a prime number.")
 '''
-
+# finding a prime number while knowing that prime numbers only have factors of 1 and itself
 prime = int(input("Enter a number greater than 1: "))
 is_prime = True
 
