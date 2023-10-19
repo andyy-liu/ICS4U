@@ -1,0 +1,15 @@
+def create_line(num): # this function creates each individual 0 or 1 line
+    text = ''
+    for i in range(0, num + 1):
+        if i % 2 == 0: #if number is even, print 0
+            text += '0'
+        else: # otherwise print 1
+            text += '1'
+    return text
+
+def counter(num): # this function determines the output result of everything
+    for i in range(0, num+1): 
+        print(create_line(i)) # prints each specific line for that number in i
+
+x = counter(12) 
+print(x)
