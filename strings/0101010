@@ -11,5 +11,4 @@ def counter(num): # this function determines the output result of everything
     for i in range(0, num+1): 
         print(create_line(i)) # prints each specific line for that number in i
 
-x = counter(12) 
-print(x)
+counter(12) 
