@@ -21,7 +21,9 @@ def median(numlist):
         return sortlist[i] + sortlist[i + 1] / 2.0
 
 def mode(numlist):
+    # have to find a way to account for no mode
     maxmode = max(set(numlist), key = numlist.count)
+
     return maxmode
 
 print(f'Mean is {mean(numlist)}')
