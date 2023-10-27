@@ -20,9 +20,9 @@ def median(numlist):
     else:
         return sortlist[i] + sortlist[i + 1] / 2.0
 
-def mode(numlist):
-    # have to find a way to account for no mode
-    maxmode = max(set(numlist), key = numlist.count)
+def mode(numlist): # to account for multiple modes, set a boolean value to True if there is a tie between 2 modes
+    unique = []
+    
 
     return maxmode
 

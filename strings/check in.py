@@ -15,8 +15,7 @@ def f(x):
 def true_int(lst):
     for i in lst:
         if f(i) == True:
-            print(i)
-    return 
+            return i
 
-lst = [16, 20, 4, 6]
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 print(true_int(lst))
